@@ -693,6 +693,9 @@ font-weight: 400;
   display: flex;
   flex-direction: column;
 }
+.catalog-goods-specifications,.catalog-goods-description{
+  padding: 0 15px;
+}
 .display-none{
   display: none;
 }
@@ -798,6 +801,10 @@ font-weight: 400;
     width: 100%;
     justify-content: space-around;
   }
+  .catalog-review-block {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
   .footer-telephone{
     width: 174px;
   }
@@ -917,6 +924,17 @@ font-weight: 400;
   }
   .catalog-goods-main{
     width: auto;
+  }
+  .catalog-goods-action-button {
+    font-size: 22px;
+  }
+  .catalog-goods-action{
+    width: auto;
+    justify-content: space-evenly;
+  }
+  .catalog-goods-video{
+    flex-direction: column;
+    align-items: center;
   }
 }
 
